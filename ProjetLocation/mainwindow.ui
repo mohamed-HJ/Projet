@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>831</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="menu0">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font:12px;
+font-weight:bold;
+color:rgb(216, 216, 216);
+}
+ 
+QPushButton:hover{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 216);
+
+}
+QPushButton:pressed{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 126);
+
+}
+
+</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-10</y>
+        <width>811</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Pictures/car.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>460</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Quitter</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>230</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Location</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>310</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Gestion voitures</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>390</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Gestion clients</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>50</y>
+        <width>341</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font:30px;
+	background-color: rgba(0, 67, 100,200);
+	border-radius:50px;
+	color:rgba(156, 234, 0,220);
+}</string>
+      </property>
+      <property name="text">
+       <string>Menu Principal</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="location1">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font:12px;
+font-weight:bold;
+color:rgb(216, 216, 216);
+}
+ 
+QPushButton:hover{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 216);
+
+}
+QPushButton:pressed{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 126);
+
+}
+</string>
+     </property>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>821</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Pictures/pexels-pixabay-248747.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>190</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Visualiser contrat</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>20</y>
+        <width>341</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font:30px;
+	background-color: rgba(0, 67, 100,200);
+	border-radius:50px;
+	color:rgb(0, 0, 0)
+}</string>
+      </property>
+      <property name="text">
+       <string>Location voiture</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>260</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Louer voiture</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>330</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Retourner voiture</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>400</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Modifier contrat</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>460</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Supprimer contrat</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>530</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="visulal_contrat2">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font:12px;
+font-weight:bold;
+color:rgb(216, 216, 216);
+}
+ 
+QPushButton:hover{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 216);
+
+}
+QPushButton:pressed{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 126);
+
+}
+</string>
+     </property>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-30</y>
+        <width>811</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Pictures/pexels-pixabay-248747.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="formLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>180</y>
+        <width>711</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>Numero du Contrat</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>ID Vouture </string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>ID Client </string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>Date Debut</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>520</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(80, 70, 25,200);
+
+
+</string>
+      </property>
+      <property name="text">
+       <string>Quitter</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>520</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(80, 70, 25,200);
+
+
+
+</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="gestion_voitire3">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font:12px;
+font-weight:bold;
+color:rgb(216, 216, 216);
+}
+ 
+QPushButton:hover{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 216);
+
+}
+QPushButton:pressed{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 126);
+
+}
+
+</string>
+     </property>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>821</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Pictures/pexels-pixabay-248747.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>260</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 70, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Liste des Voiture</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>341</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font:30px;
+	background-color: rgba(50, 17, 10,200);
+	border-radius:50px;
+	color:rgb(0,1 0, 0)
+}</string>
+      </property>
+      <property name="text">
+       <string>Gestion des voitures</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>260</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 70, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Ajouter Voiture</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>360</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 70, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Suppremer Voiture </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>360</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 70, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Modifier Voiture </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>470</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(40, 70, 106,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ajoutesvoiture4">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font:12px;
+font-weight:bold;
+color:rgb(216, 216, 216);
+}
+ 
+QPushButton:hover{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 216);
+
+}
+QPushButton:pressed{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 126);
+
+}
+
+</string>
+     </property>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>811</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Pictures/pexels-pixabay-248747.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="formLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>170</y>
+        <width>711</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_13">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>ID Voiture</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_14">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>Marque</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>Nom Voiture '</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_7">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_16">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>Couleur</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_8">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_9">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEdit_10">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_17">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>Nombre des Places</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="lineEdit_11">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_18">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>Prix par Jour</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="lineEdit_12">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);</string>
+         </property>
+         <property name="placeholderText">
+          <string>                   tapez ici...</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_18">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>530</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(40, 70, 106,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_19">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>530</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 70, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Enregistrer</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Gestionclient5">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font:12px;
+font-weight:bold;
+color:rgb(216, 216, 216);
+}
+ 
+QPushButton:hover{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 216);
+
+}
+QPushButton:pressed{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 126);
+
+}
+</string>
+     </property>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-10</y>
+        <width>821</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Pictures/car1.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>341</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font:30px;
+	background-color: rgba(0, 67, 10,160);
+	border-radius:50px;
+	color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Gestion des Clients </string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_20">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>290</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Liste des Clients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_21">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>290</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Ajouter Clients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_22">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>390</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Modifier Client</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_23">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>390</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Supprimes Client</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_24">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>490</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(40, 70, 106,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="listclient6">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font:12px;
+font-weight:bold;
+color:rgb(216, 216, 216);
+}
+ 
+QPushButton:hover{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 216);
+
+}
+QPushButton:pressed{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 126);
+
+}
+</string>
+     </property>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-10</y>
+        <width>821</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Pictures/car1.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_25">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>210</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Ajouter Clients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_26">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>300</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(40, 70, 106,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_27">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>390</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Quitter</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="modifierclient7">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font:12px;
+font-weight:bold;
+color:rgb(216, 216, 216);
+}
+ 
+QPushButton:hover{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 216);
+
+}
+QPushButton:pressed{
+font:12px;
+font-weight:bold;
+color:rgb(26, 216, 126);
+
+}
+</string>
+     </property>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-10</y>
+        <width>821</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Pictures/car1.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="formLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>180</y>
+        <width>711</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_4">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_23">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>                  ID Client </string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_13">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>       entres votre infotmation svp</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_24">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>                   Nom</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_25">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>                  Prenom  </string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_14">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>       entres votre infotmation svp</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_26">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(112, 54, 15,200);
+color:wihte;
+font:12px;</string>
+         </property>
+         <property name="text">
+          <string>                    CNE</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_15">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);</string>
+         </property>
+         <property name="placeholderText">
+          <string>       entres votre infotmation svp</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_16">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>       entres votre infotmation svp</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEdit_17">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 122, 122);
+color:rgb(5, 44, 58);
+font:14px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>       entres votre infotmation svp</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_28">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>520</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(40, 70, 106,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_29">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>520</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton 
+{
+	background-color: rgba(4, 7, 56,200);
+	border-radius:12px;
+
+
+}
+
+QPushButton :hover{
+	background-color: rgba(98, 17, 91,200);
+	border-radius:12px;
+
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Enregestres</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>20</y>
+        <width>581</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font:30px;
+	background-color: rgba(0, 67, 100,200);
+	border-radius:50px;
+	color:rgb(0, 0, 0)
+}</string>
+      </property>
+      <property name="text">
+       <string>Modifier Client </string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>493</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>808</x>
+     <y>-53</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>573</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>-29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>225</x>
+     <y>551</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>348</x>
+     <y>-57</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_27</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>414</x>
+     <y>416</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>-82</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_25</sender>
+   <signal>clicked()</signal>
+   <receiver>pushButton_26</receiver>
+   <slot>animateClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>433</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>341</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_29</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>554</x>
+     <y>540</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>-38</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_15</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>537</x>
+     <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>524</x>
+     <y>718</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
